@@ -7,6 +7,7 @@
 - Automatic derivation(needed Ceres library)
 
 WGS84 to GCJ-02:
+```
 $$\eqalign{
   & \Delta lo{n_0} = lo{n_{WGS84}} - 105  \cr 
   & \Delta la{t_0} = la{t_{WGS84}} - 35  \cr 
@@ -25,6 +26,7 @@ $$\eqalign{
   & \Delta la{t_2} = \frac{{180\Delta la{t_1} \cdot {W^2}}}{{\pi N \cdot \left( {1 - {e^2}} \right)}}  \cr 
   & lo{n_{GCJ - 02}} = lo{n_{WGS84}} + \Delta lo{n_2}  \cr 
   & la{t_{GCJ - 02}} = la{t_{WGS84}} + \Delta la{t_2} \cr} $$
+```
 
 **Notice:**
 1. Use C++ standard 17.
